@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vymo Assignment</string>
+    <string name="repository_name">Repository name</string>
+    <string name="organisation_s_name">Organisation’s name</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_pull_request">PullRequestActivity</string>
+    <string name="open">Open</string>
+    <string name="Closed">Closed</string>
+</resources>
