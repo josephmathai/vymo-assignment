@@ -179,6 +179,8 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                     } else {
+
+                        Toast.makeText(mContext, "Data From Storage", Toast.LENGTH_SHORT).show();
                         ArrayList<GitResponse> openArray = new ArrayList<GitResponse>();
                         openArray.addAll(Arrays.asList(new Gson().fromJson(prefs.getString("open", null), GitResponse[].class )));
 
